@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREER COMPTE</title>
+    <style>
+        section{
+            width: 50%;
+            border: 1px solid;
+            margin-left: 25%;
+            border-radius: 8px;
+        }
+        h4{
+            text-align: center;
+            padding: 15px;
+            background-color: lightgray;
+        }
+        #infos{
+            color: rgb(218, 13, 13);
+        }
+        input{
+            width: 253px;
+            margin: 8px;
+            padding: 3px;
+        }
+        label{
+            width: 400px;
+            margin: 15px;
+            padding: 2px;
+            background-color: antiquewhite;
+        }
+        button{
+            color: white;
+            padding: 12px;
+            margin: 40px;
+        }
+        .reg{
+            background-color: rgb(22, 207, 227);
+            border-color: rgb(22, 207, 227);
+            border-radius: 3px;
+        }
+        .val{
+            background-color: chartreuse;
+            border-color: chartreuse;
+            border-radius: 3px;
+        }
+        .an{
+            background-color: crimson;
+            border-color: crimson;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>  
+  <section>
+    <h4> creation de votre compte d'acces</h4>
+    <div id="infos">
+        .Tous les champs sont obligatoires
+    </div>
+<div id="infos">
+    .Le mot de passe doit contenir 8 caractéres minimum avec un mélange de chiffres et de lettres
+</div>
+<form >
+    <div>
+       <label for="Type d'identifiant" class="titre">Type d'identifiant:</label>
+       <select >
+        <option >Selectionner le type d'identifiant</option> 
+        <option > Numéro carte d'étudiant</option>
+        <option > Numéro table</option>
+        <option > CNI/passeport</option>
+         <option > INE</option>
+       </select>
+    </div>
+   <div>
+    <label for="identifiant">Votre identifiant: </label>
+    <input type="text" name="identifiant"  placeholder="Votre identifiant">
+   </div>
+    <div> 
+        <label for="nom">Nom: </label> 
+        <input type="text" name="Nom" placeholder="Nom de famille">
+    </div>
+    <div>
+        <label for="Prenoms"> Prenoms:</label>
+          <input type="text" name="Prenom" placeholder="Prenoms">
+    </div>
+    <div>
+        <label for=""> Mot de passe:</label>
+          <input type="text" name="Mp" placeholder="Créer un mot de passe pour la connexion à ">
+    </div>
+    <div>
+        <label for=""> Confirmation du mot de passe: </label>
+          <input type="text" name="Confimation" placeholder="confirmer votre mot de passe">
+    </div>
+    <div>
+        <label for=""> E-mail Personnel: </label>
+          <input type="text" name="E-mail" placeholder="E-mail personnel">
+    </div>
+    <div>
+        <label for=""> captcha: </label>
+          <input type="text" name="captcha" placeholder="Saisissez les caractéres ci-dessous">
+    </div>
+    </form>
+        <div>
+            <button class="reg"> Regénérer </button>
+            <button class="val"> Valider </button>
+            <button class="an"> Annuler </button>
+        </div>
+  </section>  
+</body>
+</html>
