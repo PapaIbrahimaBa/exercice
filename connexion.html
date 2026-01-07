@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONNEXION UCAD</title>
+    <style>
+        section{
+            width: 50%;
+            border: 1px solid;
+            margin-left:  25%;
+            border-radius: 2px;
+        }
+        h4{
+            text-align: center;
+            padding: 15px;
+            background-color: lightgray;
+        }
+
+        #infos{
+            padding: 10px;
+            background-color: rgb(143, 213, 236);
+            color: rgb(35, 103, 145);
+            margin: 5px;
+            border-radius: 5px;
+        }
+        input{
+            width: 50%;
+            margin: 25px;
+            padding: 10px;
+            
+        }
+        .btn button{
+            margin-left: 80%;
+            background-color: rgb(80, 170, 201);
+            border-color: rgb(80, 170, 201);
+        }
+          form{
+            padding: 30px;
+        }
+        .liens{
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        button{
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+        }
+        .mp{
+           background-color: lab(73.78% 19.88 75.52 / 0.895);
+           border-color: #cf8f0efe;
+        }
+        .verif{
+           background-color: rgb(57, 117, 182);
+            border-color: rgb(57, 117, 182);
+        }
+        a{          
+            padding: 2%;
+            background-color: rgb(33, 186, 66);
+            border-color: rgb(33, 186, 66);
+            border-radius: 5px;
+        }
+      
+    </style>
+</head>
+<body>
+<section>
+    <h4> Espace etudiant</h4>
+    <div id="infos"> 
+        Veuillez renseigner le nom d'utilisateur et le mot de passe
+    </div>
+    <form >
+        <div>
+            <span class="icon">👤</span>
+             <input type="text" name="nom" placeholder="Nom d'utilisateur">
+        </div>
+        <div>
+            <span class="icon">🔒</span>
+             <input type="text" name="mp" placeholder="Mot de passe">
+        </div>
+        <div class="btn">
+            <button>Se connecter</button>
+        </div>
+    </form>
+    <div class="liens">
+        <button class="mp">Mot de passe oublié?</button>
+        <button class="verif">Vérifier autorisation?</button>
+        <a href="compte.html">Créer un compte</a>
+    </div> 
+
+</section>    
+</body>
+</html>
